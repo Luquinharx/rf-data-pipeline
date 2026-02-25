@@ -1,0 +1,17 @@
+# Ignore data files
+*.csv
+*.zip
+*.txt
+*.log
+
+# Ignore data directories (Pattern for Year-Month folders like 2026-02)
+[0-9][0-9][0-9][0-9]-[0-9][0-9]/
+Temporario/
+
+# Python standard ignores
+__pycache__/
+*.pyc
+.venv/
+env/
+.env
+.DS_Store
